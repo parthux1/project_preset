@@ -19,7 +19,10 @@ including them as [filename].png
 external files which may be included in code.
 
 ## src
-header and source files
+Private header and source files.
+
+## include/[project\_name]
+Public headers which can be included in other projects.
 
 ## lib
 3rd-party librarys.
