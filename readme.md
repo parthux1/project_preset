@@ -1,31 +1,13 @@
-# standard project template for my c++ projects
- Requirements:
- - doxygen
- - dot
- - gcc
- - python3
+# project_setup
+This is my template for C++ projects.
 
-## doc
-### markdown
-.md-files in this folder will be included in the doxygen documentation.
-If a title or Header of an included .md is mentioned in another file a reference will
-be generated (may need further testing).
+## Documentation
+This project contains a documentation preset for `sphinx` + `doxygen`.  
 
-### diagrams
-DOT-Engine files (.gv) in this dir will be rendered as pngs and can be included in .md -files by
-including them as [filename].png
+It can be compiled by running following command in the **projects root folder**:
+```
+sh make_doc.sh
+```
 
-## res
-external files which may be included in code.
-
-## src
-Private header and source files.
-
-## include/[project\_name]
-Public headers which can be included in other projects.
-
-## lib
-3rd-party librarys.
-
-## test
-Test cases.
+### TODO:
+- allow quick author & project name renaming
