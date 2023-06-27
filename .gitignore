@@ -1,3 +1,2 @@
-docs/build/
-docs/doxygen_out/
-include/*/
+build/
+doc/out/
