@@ -13,7 +13,4 @@ to generate a documentation using files from `src/` and `doc/source/` run follow
 ```bash
 doxygen doc/DoxyFile
 ```
-Documentation will be written to `doc/out/`.
-
-## TODO:
-- allow quick author & project name renaming
+Documentation will be written to `doc/out/`. Open it with `start doc/out/html/index.html` .
