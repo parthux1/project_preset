@@ -1,7 +1,7 @@
 # Doxyfile 1.9.4
 
-PROJECT_NAME           = "Title not set in Doxyfile"
-PROJECT_BRIEF          =
+PROJECT_NAME           = <project_name>
+PROJECT_BRIEF          = <project_description>
 PROJECT_LOGO           =
 
 OUTPUT_DIRECTORY       = "doc/out"
