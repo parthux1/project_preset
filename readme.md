@@ -5,7 +5,7 @@
 ## Initial setup
 
 - this project is generated using https://github.com/parthux1/project_preset
-- run `scripts/init_project.sh` in project root to define common project variables using the following flags
+- run `./scripts/init_project.sh` in project root to define common project variables using the following flags
   - `-p` project name
   - `-d` project description
   - see [scripts/init_project.sh](scripts/init_project_preset.sh) for more information
