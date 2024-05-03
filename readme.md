@@ -1,16 +1,24 @@
 # <project_name>
 
-A C++ project template. 
-<description>
+<project_description>
 
 ## Initial setup
 
-- run `scripts/init_project.sh` to define common project variables.
+- this project is generated using https://github.com/parthux1/project_preset
+- run `scripts/init_project.sh` in project root to define common project variables using the following flags
+  - `-p` project name
+  - `-d` project description
+  - see [scripts/init_project.sh](scripts/init_project_preset.sh) for more information
 
 ## Documentation
 
-to generate a documentation using files from `src/` and `doc/source/` run following code from the projects root dir:
+You can generate a documentation using doxygen.
+This will include files from `src/` and `doc/source/`.  
+Documentation will be written to `doc/out/`. 
 ```bash
+# run in project root
 doxygen doc/DoxyFile
+
+# open the documentation
+start doc/out/html/index.html
 ```
-Documentation will be written to `doc/out/`. Open it with `start doc/out/html/index.html` .
