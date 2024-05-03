@@ -1,11 +1,11 @@
-# project_template
+# <project_name>
 
 A C++ project template. 
+<description>
 
 ## Initial setup
 
-- edit `CMakeLists.txt`: change <proj_name>
-- edit `doc/DoxyFile`: Set `PROJECT_NAME`
+- run `scripts/init_project.sh` to define common project variables.
 
 ## Documentation
 
