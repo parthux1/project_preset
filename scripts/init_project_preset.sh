@@ -36,5 +36,5 @@ echo "> description : $project_description";
 files_to_edit=("CMakeLists.txt" "readme.md" "doc/Doxyfile");
 
 # apply changes
-sed -i "s/<project_name>/\"$project_name\"/g" "${files_to_edit[@]}"
-sed -i "s/<project_description>/\"$project_description\"/g" "${files_to_edit[@]}"
+sed -i "s/<project_name>/$project_name/g" "${files_to_edit[@]}"
+sed -i "s/<project_description>/$project_description/g" "${files_to_edit[@]}"
