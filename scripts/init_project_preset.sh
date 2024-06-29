@@ -33,7 +33,7 @@ echo "> project name: $project_name";
 echo "> description : $project_description";
 
 # all files to sed
-files_to_edit=("CMakeLists.txt" "readme.md" "doc/Doxyfile");
+files_to_edit=("CMakeLists.txt" "readme.md" "doc/Doxyfile" "vcpkg.json");
 
 # apply changes
 sed -i "s/<project_name>/$project_name/g" "${files_to_edit[@]}"
